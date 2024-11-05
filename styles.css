@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #4A90E2;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #4A90E2;
+    border-bottom: 2px solid #4A90E2;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+p, ul {
+    line-height: 1.6;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.education, .experience, .projects, .skills {
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.education:hover, .experience:hover, .projects:hover, .skills:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.job, .project {
+    margin-bottom: 15px;
+}
+
+.job h3, .project h3 {
+    color: #4A90E2;
+    transition: color 0.3s;
+}
+
+.job h3:hover, .project h3:hover {
+    color: #0077cc;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+a {
+    color: #4A90E2;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 2px solid #4A90E2;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    background-color: #4A90E2;
+    color: #fff;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
